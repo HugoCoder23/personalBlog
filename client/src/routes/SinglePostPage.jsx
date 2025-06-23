@@ -105,12 +105,11 @@ export default function SinglePostPage() {
           <PostMenuAction />
           <h1 className="mt-8 mb-4 text-sm font-medium">Categories</h1>
           <div className="flex flex-col gap-2 text-sm">
-            <Link className="underline" to="/">All</Link>
-            <Link className="underline" to="/">Web Design</Link>
-            <Link className="underline" to="/">Development</Link>
-            <Link className="underline" to="/">Databases</Link>
-            <Link className="underline" to="/">Search Engines</Link>
-            <Link className="underline" to="/">Marketing</Link>
+        <Link className="underline" to="/posts">All</Link>
+        <Link className="underline" to="/posts">General</Link>
+        <Link className="underline" to="/posts">Derecho</Link>
+        <Link className="underline" to="/posts">Política</Link>
+        <Link className="underline" to="/posts">Tecnología</Link>
           </div>
           <h1 className="mt-8 mb-4 text-sm font-medium">Buscar</h1>
           <Search />
